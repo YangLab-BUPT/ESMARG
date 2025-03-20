@@ -9,6 +9,7 @@ ESMARG is a new model designed based on ESM-2, consisting of four modules: ESMAR
 - **ESMARG-3**: This module assesses and determines the resistance mechanisms of the ARGs.
 
 - **ESMARG-4**：This module uses DIAMOND to align functions of the ARGs.
+![alt text](https://github.com/YangLab-BUPT/ESMARG/blob/main/overall%20ESMARG.svg)
 
 ## Preparation
 
