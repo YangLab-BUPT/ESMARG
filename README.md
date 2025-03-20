@@ -14,22 +14,28 @@ ESMARG is a new model designed based on ESM-2, consisting of four modules: ESMAR
 
 ESMARG uses the ESM-2 model for feature extraction. Please visit [ESM-2 GitHub Repository](https://github.com/facebookresearch/esm) to obtain the ESM-2 model. Use the following command to perform feature extraction:
 
-
+```bash
    python scripts/extract.py
-
+```
 ## Installation
 ESMARG using python3.11 can install the environment using the following instructions, which contain the configuration of the esm2 environment
-
+```bash
    conda env create -f environment.yml
-
+```
 ## test
 You can use the prediction files in the test folder to perform testing:
-  For ESMARG-1, to identify ARG sequences, use:
+  ### For ESMARG-1, to identify ARG sequences, use:
+```bash
      python predictp.py
-  For ESMARG-2, to categorize ARG sequences, use:
+```
+  ### For ESMARG-2, to categorize ARG sequences, use:
+```bash
      python predictmult.py
-  For ESMARG-3, to determine the resistance mechanisms of ARG sequences, use:
+```
+  ### For ESMARG-3, to determine the resistance mechanisms of ARG sequences, use:
+```bash
      python predictmachism.py
+```
 
 # train
 You can retrain ESMARG using the files in the model directory. Please note that the current files do not contain the feature vectors extracted using ESM-2. Therefore, you need to perform feature extraction on the corresponding .fasta files in the data folder using ESM-2 first.
