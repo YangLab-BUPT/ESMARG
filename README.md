@@ -22,7 +22,7 @@ ESMARG using python3.11 can install the environment using the following instruct
 ```bash
    conda env create -f environment.yml
 ```
-## test
+## Test
 You can use the prediction files in the test folder to perform testing:
   ### For ESMARG-1, to identify ARG sequences, use:
 ```bash
@@ -37,7 +37,7 @@ You can use the prediction files in the test folder to perform testing:
      python predictmachism.py
 ```
 
-# train
+## Train
 You can retrain ESMARG using the files in the model directory. Please note that the current files do not contain the feature vectors extracted using ESM-2. Therefore, you need to perform feature extraction on the corresponding .fasta files in the data folder using ESM-2 first.
 
 ## About
