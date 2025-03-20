@@ -1,0 +1,7 @@
+antibiotic_inactivation:0
+antibiotic_target_replacement:1
+antibiotic_target_alteration:2
+antibiotic_target_protection:3
+antibiotic_efflux:4
+reduced_permeability_to_antibiotic:5
+resistance_by_host-dependent_nutrient_acquisition:6
