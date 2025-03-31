@@ -170,7 +170,6 @@ for epoch in range(num_epochs):
             outputs = model(mean_representations)
 
             if torch.isnan(outputs).any():
-                print(f"Encountered nan values in outputs during validation. Skipping this batch.")
                 continue
             
             loss = criterion(outputs, labels.float().unsqueeze(1))
